@@ -5,18 +5,21 @@
 // Testing syncing via Dropbox and Unity3D - Importing into Unity3D creates a separate instance
 // The Assets/Ink-Storyline and INK file are now synced with GitHub
 //
+// Opening file with Inky directly from Assets directory
+//
 
 -> StartingPreface
 
 === StartingPreface ===
-= welcome
-* [Welcome to the starting zone]
-- [<i> This narrative is a companion to your real world science experience. ] -> instructions
+= Welcome
+Welcome to the Starting Zone.
++ [PRESS START] -> CaldaVale.scene
++ [CONTINUE] -> StartingZone.TOC
 
-= instructions
-*[<i>First time visitors PRESS START on the next page, all others may choose CONTINUE.</i>] -> begin
+= INSTRUCTIONS
+*[<i>First time visitors PRESS START on the next page, all others may choose CONTINUE.</i>] -> StartScreen
 
-= begin
+= StartScreen
 + [PRESS START] -> CaldaVale.scene
 + [CONTINUE] -> StartingZone.TOC
 
@@ -27,7 +30,7 @@
 + [BlueMug] -> BlueMug.scene
 
 === SleepingJedi ===
-*[<i>Jedi Master Scoy has fallen asleep again. This area is under development, check back again later.</i>]
+*[Jedi Master Scoy has fallen asleep again. This area is under development, check back again later.]
  -> CaldaVale.scene
  
 -> DONE
