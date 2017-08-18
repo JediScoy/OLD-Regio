@@ -2,8 +2,12 @@
 // REGIO SCIENTIAE - STARTER SET
 // This prologue is the same for each course I teach
 //
-// Testing syncing via Dropbox and Unity3D
+// Testing syncing via Dropbox and Unity3D - Importing into Unity3D creates a separate instance
+// The Assets/Ink-Storyline and INK file are now synced with GitHub
 //
+
+-> StartingPreface
+
 === StartingPreface ===
 = welcome
 * [Welcome to the starting zone]
