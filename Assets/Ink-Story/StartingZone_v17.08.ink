@@ -2,24 +2,27 @@
 // REGIO SCIENTIAE - STARTER SET
 // This prologue is the same for each course I teach
 //
-// Testing syncing via Dropbox and Unity3D - Importing into Unity3D creates a separate instance
+// Testing syncing via Dropbox and Unity3D
+// Importing into Unity3D creates a separate instance
 // The Assets/Ink-Storyline and INK file are now synced with GitHub
 //
 // Opening file with Inky directly from Assets directory
 //
+ TODO: Rename file without dates in title. Only use dated versions in Dropbox archives
 
 -> StartingPreface
 
 === StartingPreface ===
 = Welcome
+# location: Calda Vale
+# valleys.mp3
 Welcome to the Starting Zone.
-+ [PRESS START] -> CaldaVale.scene
-+ [CONTINUE] -> StartingZone.TOC
+->StartMenu
 
 = INSTRUCTIONS
-*[<i>First time visitors PRESS START on the next page, all others may choose CONTINUE.</i>] -> StartScreen
+*[<i>First time visitors PRESS START on the next page, all others may choose CONTINUE.</i>] -> StartMenu
 
-= StartScreen
+= StartMenu
 + [PRESS START] -> CaldaVale.scene
 + [CONTINUE] -> StartingZone.TOC
 
@@ -68,6 +71,9 @@ The forest comes to a clearing and opens to village.
 // CLUN CASTLE
 === ClunCastle ===
 = scene
+# location: ClunCastle
+# wizardtower.mp3
+
 Stones have fallen and the place is clearly abandoned[.]
 -> StartingZone.TOC
 
