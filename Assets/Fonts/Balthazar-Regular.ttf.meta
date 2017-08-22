@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 610142f117fd74e4c922783b19153faf
+timeCreated: 1502905919
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Balthazar
+  fontNames:
+  - Balthazar
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
