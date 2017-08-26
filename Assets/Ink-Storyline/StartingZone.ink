@@ -19,18 +19,19 @@
 Welcome to the Starting Zone.
 ->StartMenu
 
-= INSTRUCTIONS
-*[<i>First time visitors PRESS START on the next page, all others may choose CONTINUE.</i>] -> StartMenu
+= Instructions
+*[First time visitors PRESS START on the next page, all others may choose CONTINUE.] -> StartMenu
 
 = StartMenu
 + [PRESS START] -> CaldaVale.scene
-+ [CONTINUE] -> StartingZone.TOC
++ [CONTINUE] -> TOC
 
-=== StartingZone ===
-= TOC
-+ [Discovering CaldaVale] -> CaldaVale.scene
-+ [Canis Villa] -> CanisVilla
-+ [BlueMug] -> BlueMug.scene
+-> DONE
+
+=== TOC ===
++ [IN THE WOODS] -> CaldaVale.scene
++ [CANIS VILLA] -> CanisVilla
++ [BLUE MUG] -> BlueMug.scene
 
 === SleepingJedi ===
 *[Jedi Master Scoy has fallen asleep again. This area is under development, check back again later.]
@@ -75,7 +76,7 @@ The forest comes to a clearing and opens to village.
 # wizardtower.mp3
 
 Stones have fallen and the place is clearly abandoned[.]
--> StartingZone.TOC
+-> TOC
 
 = early
 Besides the occasional bushwhacking the walk isn't too difficult and soon you approach the dark tower’s main gate.
