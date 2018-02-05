@@ -32,7 +32,7 @@ public class Websites : MonoBehaviour   {
     // Multiplayer Classroom Trailer
     public void MPCTrailer(string name)
     {
-        Application.OpenURL("https://youtu.be/embed/MKbnuffbnsY?autoplay=1;vq=hd720");
+        Application.OpenURL("https://www.youtube.com/embed/MKbnuffbnsY?autoplay=1;vq=hd720");
     }
 
     
