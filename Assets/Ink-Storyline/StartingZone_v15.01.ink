@@ -1,10 +1,19 @@
-// ** OLD **
-// Originally included in The Island story, now each one is a separate ink-chapter file
+// ****************************************
+//
+// Discovering Canis Villa | Chapter 1
+// Awake in the Woods
+//
+// ****************************************
 
-
-
-// CALDA VALE
 TODO: CALDA VALE
+
+-> CaldaVale
+
+=== AwakeInTheWoods ===
+<b>Awake in the Woods</b>
+
+-> DONE
+
 === CaldaVale ===
 = scene
 <b>Discovering Calda Vale</b>
