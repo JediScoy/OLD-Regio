@@ -5,8 +5,11 @@
 //
 // ****************************************
 
+-> CanisVilla
+
 == CanisVilla ==
 = Scene
+<b>The Village</b>
  A small village lies before you. The village center is loosely surrounded by a variety of stout timbered buildings. You are greeted by a weathered signpost <i>Canis Villa</i>.
  + [Enter the village] ->village_center
 
@@ -31,7 +34,7 @@ You walk into the courtyard, but nothing seems to be going on there. Most people
 // + [Leave the village to the west] ->leave_early
 
 = leave_early
-You decide the village is not for you. You head back west. It takes much longer without a cart ride, but you come to the crossroads again.
+You decide the village is not for you. You head back west. It takes much longer without a ride, but you come to the crossroads again.
 // + You continue west. -> ClunCastle.early
 -> DONE
  
@@ -55,7 +58,7 @@ You enter and look around <i>The Blue Mug</i>. Its a basic, two story wooden inn
 // You might not remember your last raid, but clearly you are going to need some backup for adventuring in these parts if you decide to stay.
  
 = help_needed
-The people look beaten down. This community needs helps. You are not the most talented of adventurers...yet, but you are persistent. Perhaps you could make the difference?
+The people look beaten down. This community needs helps. You are not the most talented of adventurers YET, but you are PERSISTENT. A positive, can-do attitude could make the difference.
 + [Stay and help]-> BlueMug.stay_help
 * [Leave the village] -> CanisVilla.leave_early
 
@@ -120,8 +123,40 @@ Find the nearest Master and ask for the access code to the library in the ether.
  
 // After completing the requirements consult with Jedi Master Scoy and move on to the next Quest. Be sure to follow the quest line for your campaign. All campaigns (Earth Science, Biology, Physical Science, Zoology, etc) start here. Good luck!
 
-// *Clun Castle
-// -> clun_castle_early
-// *Eastport
-// -> eastport
+// CLUN CASTLE
+=== ClunCastle ===
+= scene
+Stones have fallen and the place is clearly abandoned.
+-> DONE
+
+= early
+Besides the occasional bushwhacking the walk isn't too difficult and soon you approach the dark tower’s main gate.
+Stones have fallen around it.
++ [The place is clearly abandoned.] ->CastleDeath
+
+= CastleDeath
+ At least you <i>thought</i> it was abandoned. The Drow warrior slips from a shadowy side entrance. 
+ + [Fight] -> Fight
++ [Flee] -> Fight
+
+= Fight
+ Blades move so fast they are a blur. You have no time to react. This quickly ends your otherwise pleasant walk.
++ {Death < 1} [Next] -> Death.One
++ {Death} [Next] -> Death.Two
+
+-> DONE
+
+// Death
+=== Death ===
+= One
+You have died, but do not fear failure. Kind paladins and clerics wander these lands. Soon enough your bones will be found and your life renewed.
++ [Res] -> CanisVilla.Scene
+
+= Two
+You have died <i>yet again</i>, but do not fear failure. You are demostrating PERSISTENCE and GRIT. Kind paladins and clerics wander these lands. Soon enough your bones will be found and your life renewed.
++ [Res] -> CanisVilla.Scene
+
+= Eastport_laser_fish
+<i>Jedi Master Scoy has fallen asleep again. This area is under development, check back again later.
+-> DONE
 -> DONE

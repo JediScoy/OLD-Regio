@@ -112,7 +112,7 @@ You have died, but do not fear failure. Kind paladins and clerics wander these l
 + [Res] -> CaldaVale.Scene
 
 = Two
-You have died <i>yet again</i>, but do not fear failure. You are demostrating persistence and grit. Kind paladins and clerics wander these lands. Soon enough your bones will be found and your life renewed.
+You have died <i>yet again</i>, but do not fear failure. You are demostrating PERSISTENCE and GRIT. Kind paladins and clerics wander these lands. Soon enough your bones will be found and your life renewed.
 + [Res] -> CaldaVale.Scene
 
 
