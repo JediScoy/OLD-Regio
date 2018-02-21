@@ -2,15 +2,17 @@
 //
 // Discovering Canis Villa | Chapter 1
 // Awake in the Woods
-//
 // ****************************************
 
- 
+// AUDIO
+// <div align="center"><audio src="http://www.regioscientiae.com/files/theme/fx-valleys.mp3" controls autoplay loop></div>
+
 -> StartingPreface
 
 === StartingPreface ===
 = Welcome
-Welcome to weary adventure to <i>DISCOVERING CANIS VILLA</i>! This storyline takes place in the Starting Zone of Regio Scientiae.
+Welcome weary adventure!
+This story takes place in <em>Regio Scientiae</em>: a land of understanding, curiousity, peristence, and magic.
 
 ->StartMenu
 
